@@ -1,0 +1,226 @@
+2020-12-22 10:03:50.963  INFO [main] (io.mycat.backend.datasource.PhysicalDBPool.<init>(PhysicalDBPool.java:127)) - total resources of dataHost localhost2 is :1
+2020-12-22 10:03:50.964  INFO [main] (io.mycat.backend.datasource.PhysicalDBPool.<init>(PhysicalDBPool.java:127)) - total resources of dataHost localhost1 is :1
+2020-12-22 10:03:50.975  INFO [main] (io.mycat.cache.CacheService.createLayeredPool(CacheService.java:125)) - create layer cache pool TableID2DataNodeCache of type encache ,default cache size 10000 ,default expire seconds18000
+2020-12-22 10:03:50.976  INFO [main] (io.mycat.cache.DefaultLayedCachePool.createChildCache(DefaultLayedCachePool.java:80)) - create child Cache: TESTDB_ORDERS for layered cache TableID2DataNodeCache, size 50000, expire seconds 18000
+2020-12-22 10:03:51.335  INFO [main] (io.mycat.config.classloader.DynaClassLoader.<init>(DynaClassLoader.java:34)) - dyna class load from E:\springcloud\mycat1.6.7.4\catlet,and auto check for class file modified every 60 seconds
+2020-12-22 10:03:51.361  INFO [main] (io.mycat.MycatServer.startup(MycatServer.java:326)) - MyCat is ready to startup ...
+2020-12-22 10:03:51.361  INFO [main] (io.mycat.MycatServer.startup(MycatServer.java:338)) - Startup processors ...,total processors:4,aio thread pool size:8    
+ each process allocated socket buffer pool  bytes ,a page size:2097152  a page's chunk number(PageSize/ChunkSize) is:512  buffer page's number is:80
+2020-12-22 10:03:51.361  INFO [main] (io.mycat.MycatServer.startup(MycatServer.java:339)) - sysconfig params:SystemConfig [processorBufferLocalPercent=100, frontSocketSoRcvbuf=1048576, frontSocketSoSndbuf=4194304, backSocketSoRcvbuf=4194304, backSocketSoSndbuf=1048576, frontSocketNoDelay=1, backSocketNoDelay=1, maxStringLiteralLength=65535, frontWriteQueueSize=2048, bindIp=0.0.0.0, serverPort=8066, managerPort=9066, charset=utf8, processors=4, processorExecutor=8, timerExecutor=2, managerExecutor=2, idleTimeout=1800000, catletClassCheckSeconds=60, sqlExecuteTimeout=300, processorCheckPeriod=1000, dataNodeIdleCheckPeriod=300000, dataNodeHeartbeatPeriod=10000, clusterHeartbeatUser=_HEARTBEAT_USER_, clusterHeartbeatPass=_HEARTBEAT_PASS_, clusterHeartbeatPeriod=5000, clusterHeartbeatTimeout=10000, clusterHeartbeatRetry=10, txIsolation=3, parserCommentVersion=50148, sqlRecordCount=10, bufferPoolPageSize=2097152, bufferPoolChunkSize=4096, bufferPoolPageNumber=80, maxResultSet=524288, bigResultSizeSqlCount=10, bufferUsagePercent=80, flowControlRejectStrategy=0, clearBigSqLResultSetMapMs=600000, defaultMaxLimit=100, sequnceHandlerType=1, sqlInterceptor=io.mycat.server.interceptor.impl.DefaultSqlInterceptor, sqlInterceptorType=select, sqlInterceptorFile=E:\springcloud\mycat1.6.7.4\bin/logs/sql.txt, mutiNodeLimitType=0, mutiNodePatchSize=100, defaultSqlParser=druidparser, usingAIO=0, packetHeaderSize=4, maxPacketSize=16777216, mycatNodeId=1,ignoreUnknownCommand=0,parallExecute=0,removeGraveAccent=1]
+2020-12-22 10:03:51.454  INFO [main] (io.mycat.MycatServer.startup(MycatServer.java:448)) - using nio network handler 
+2020-12-22 10:03:51.532  INFO [main] (io.mycat.MycatServer.startup(MycatServer.java:464)) - $_MyCatManager is started and listening on 9066
+2020-12-22 10:03:51.532  INFO [main] (io.mycat.MycatServer.startup(MycatServer.java:468)) - $_MyCatServer is started and listening on 8066
+2020-12-22 10:03:51.532  INFO [main] (io.mycat.MycatServer.startup(MycatServer.java:470)) - ===============================================
+2020-12-22 10:03:51.532  INFO [main] (io.mycat.MycatServer.startup(MycatServer.java:474)) - Initialize dataHost ...
+2020-12-22 10:03:51.532  INFO [main] (io.mycat.backend.datasource.PhysicalDBPool.initSource(PhysicalDBPool.java:394)) - init backend mysql source ,create connections total 10 for hostM2 index :0
+2020-12-22 10:03:51.534  INFO [main] (io.mycat.backend.datasource.PhysicalDatasource.getConnection(PhysicalDatasource.java:564)) - no ilde connection in pool 1948471365 ,create new connection for hostM2 of schema mycat_table_sharding totalConnectionCount: 0 increamentCount: 1
+2020-12-22 10:03:51.535  INFO [main] (io.mycat.backend.datasource.PhysicalDatasource.getConnection(PhysicalDatasource.java:564)) - no ilde connection in pool 1948471365 ,create new connection for hostM2 of schema mycat_table_sharding totalConnectionCount: 0 increamentCount: 2
+2020-12-22 10:03:51.535  INFO [main] (io.mycat.backend.datasource.PhysicalDatasource.getConnection(PhysicalDatasource.java:564)) - no ilde connection in pool 1948471365 ,create new connection for hostM2 of schema mycat_table_sharding totalConnectionCount: 0 increamentCount: 3
+2020-12-22 10:03:51.535  INFO [main] (io.mycat.backend.datasource.PhysicalDatasource.getConnection(PhysicalDatasource.java:564)) - no ilde connection in pool 1948471365 ,create new connection for hostM2 of schema mycat_table_sharding totalConnectionCount: 0 increamentCount: 4
+2020-12-22 10:03:51.536  INFO [main] (io.mycat.backend.datasource.PhysicalDatasource.getConnection(PhysicalDatasource.java:564)) - no ilde connection in pool 1948471365 ,create new connection for hostM2 of schema mycat_table_sharding totalConnectionCount: 0 increamentCount: 5
+2020-12-22 10:03:51.536  INFO [main] (io.mycat.backend.datasource.PhysicalDatasource.getConnection(PhysicalDatasource.java:564)) - no ilde connection in pool 1948471365 ,create new connection for hostM2 of schema mycat_table_sharding totalConnectionCount: 0 increamentCount: 6
+2020-12-22 10:03:51.537  INFO [main] (io.mycat.backend.datasource.PhysicalDatasource.getConnection(PhysicalDatasource.java:564)) - no ilde connection in pool 1948471365 ,create new connection for hostM2 of schema mycat_table_sharding totalConnectionCount: 0 increamentCount: 7
+2020-12-22 10:03:51.537  INFO [main] (io.mycat.backend.datasource.PhysicalDatasource.getConnection(PhysicalDatasource.java:564)) - no ilde connection in pool 1948471365 ,create new connection for hostM2 of schema mycat_table_sharding totalConnectionCount: 0 increamentCount: 8
+2020-12-22 10:03:51.538  INFO [main] (io.mycat.backend.datasource.PhysicalDatasource.getConnection(PhysicalDatasource.java:564)) - no ilde connection in pool 1948471365 ,create new connection for hostM2 of schema mycat_table_sharding totalConnectionCount: 0 increamentCount: 9
+2020-12-22 10:03:51.538  INFO [main] (io.mycat.backend.datasource.PhysicalDatasource.getConnection(PhysicalDatasource.java:564)) - no ilde connection in pool 1948471365 ,create new connection for hostM2 of schema mycat_table_sharding totalConnectionCount: 0 increamentCount: 10
+2020-12-22 10:03:51.582  INFO [$_NIOREACTOR-1-RW] (io.mycat.backend.datasource.PhysicalDatasource$1$1.connectionAcquired(PhysicalDatasource.java:514)) - connection id is 1
+2020-12-22 10:03:51.582  INFO [$_NIOREACTOR-2-RW] (io.mycat.backend.datasource.PhysicalDatasource$1$1.connectionAcquired(PhysicalDatasource.java:514)) - connection id is 2
+2020-12-22 10:03:51.582  INFO [$_NIOREACTOR-0-RW] (io.mycat.backend.datasource.PhysicalDatasource$1$1.connectionAcquired(PhysicalDatasource.java:514)) - connection id is 4
+2020-12-22 10:03:51.582  INFO [$_NIOREACTOR-3-RW] (io.mycat.backend.datasource.PhysicalDatasource$1$1.connectionAcquired(PhysicalDatasource.java:514)) - connection id is 3
+2020-12-22 10:03:51.583  INFO [$_NIOREACTOR-0-RW] (io.mycat.backend.mysql.nio.handler.GetConnectionHandler.connectionAcquired(GetConnectionHandler.java:67)) - connected successfuly MySQLConnection@1042673366 [id=4, lastTime=1608602631583, user=root, schema=mycat_table_sharding, old shema=mycat_table_sharding, borrowed=true, fromSlaveDB=false, threadId=24, charset=utf8, txIsolation=3, autocommit=true, attachment=null, respHandler=null, host=localhost, port=3306, statusSync=null, writeQueue=0, modifiedSQLExecuted=false]
+2020-12-22 10:03:51.583  INFO [$_NIOREACTOR-2-RW] (io.mycat.backend.mysql.nio.handler.GetConnectionHandler.connectionAcquired(GetConnectionHandler.java:67)) - connected successfuly MySQLConnection@354193329 [id=2, lastTime=1608602631583, user=root, schema=mycat_table_sharding, old shema=mycat_table_sharding, borrowed=true, fromSlaveDB=false, threadId=27, charset=utf8, txIsolation=3, autocommit=true, attachment=null, respHandler=null, host=localhost, port=3306, statusSync=null, writeQueue=0, modifiedSQLExecuted=false]
+2020-12-22 10:03:51.583  INFO [$_NIOREACTOR-1-RW] (io.mycat.backend.mysql.nio.handler.GetConnectionHandler.connectionAcquired(GetConnectionHandler.java:67)) - connected successfuly MySQLConnection@1258582819 [id=1, lastTime=1608602631583, user=root, schema=mycat_table_sharding, old shema=mycat_table_sharding, borrowed=true, fromSlaveDB=false, threadId=23, charset=utf8, txIsolation=3, autocommit=true, attachment=null, respHandler=null, host=localhost, port=3306, statusSync=null, writeQueue=0, modifiedSQLExecuted=false]
+2020-12-22 10:03:51.583  INFO [$_NIOREACTOR-2-RW] (io.mycat.backend.datasource.PhysicalDatasource$1$1.connectionAcquired(PhysicalDatasource.java:514)) - connection id is 6
+2020-12-22 10:03:51.583  INFO [$_NIOREACTOR-0-RW] (io.mycat.backend.datasource.PhysicalDatasource$1$1.connectionAcquired(PhysicalDatasource.java:514)) - connection id is 8
+2020-12-22 10:03:51.583  INFO [$_NIOREACTOR-2-RW] (io.mycat.backend.mysql.nio.handler.GetConnectionHandler.connectionAcquired(GetConnectionHandler.java:67)) - connected successfuly MySQLConnection@848248808 [id=6, lastTime=1608602631583, user=root, schema=mycat_table_sharding, old shema=mycat_table_sharding, borrowed=true, fromSlaveDB=false, threadId=25, charset=utf8, txIsolation=3, autocommit=true, attachment=null, respHandler=null, host=localhost, port=3306, statusSync=null, writeQueue=0, modifiedSQLExecuted=false]
+2020-12-22 10:03:51.583  INFO [$_NIOREACTOR-1-RW] (io.mycat.backend.datasource.PhysicalDatasource$1$1.connectionAcquired(PhysicalDatasource.java:514)) - connection id is 5
+2020-12-22 10:03:51.583  INFO [$_NIOREACTOR-0-RW] (io.mycat.backend.mysql.nio.handler.GetConnectionHandler.connectionAcquired(GetConnectionHandler.java:67)) - connected successfuly MySQLConnection@745384188 [id=8, lastTime=1608602631583, user=root, schema=mycat_table_sharding, old shema=mycat_table_sharding, borrowed=true, fromSlaveDB=false, threadId=26, charset=utf8, txIsolation=3, autocommit=true, attachment=null, respHandler=null, host=localhost, port=3306, statusSync=null, writeQueue=0, modifiedSQLExecuted=false]
+2020-12-22 10:03:51.583  INFO [$_NIOREACTOR-3-RW] (io.mycat.backend.mysql.nio.handler.GetConnectionHandler.connectionAcquired(GetConnectionHandler.java:67)) - connected successfuly MySQLConnection@1925291729 [id=3, lastTime=1608602631583, user=root, schema=mycat_table_sharding, old shema=mycat_table_sharding, borrowed=true, fromSlaveDB=false, threadId=28, charset=utf8, txIsolation=3, autocommit=true, attachment=null, respHandler=null, host=localhost, port=3306, statusSync=null, writeQueue=0, modifiedSQLExecuted=false]
+2020-12-22 10:03:51.583  INFO [$_NIOREACTOR-1-RW] (io.mycat.backend.mysql.nio.handler.GetConnectionHandler.connectionAcquired(GetConnectionHandler.java:67)) - connected successfuly MySQLConnection@676381447 [id=5, lastTime=1608602631583, user=root, schema=mycat_table_sharding, old shema=mycat_table_sharding, borrowed=true, fromSlaveDB=false, threadId=29, charset=utf8, txIsolation=3, autocommit=true, attachment=null, respHandler=null, host=localhost, port=3306, statusSync=null, writeQueue=0, modifiedSQLExecuted=false]
+2020-12-22 10:03:51.583  INFO [$_NIOREACTOR-1-RW] (io.mycat.backend.datasource.PhysicalDatasource$1$1.connectionAcquired(PhysicalDatasource.java:514)) - connection id is 9
+2020-12-22 10:03:51.583  INFO [$_NIOREACTOR-3-RW] (io.mycat.backend.datasource.PhysicalDatasource$1$1.connectionAcquired(PhysicalDatasource.java:514)) - connection id is 7
+2020-12-22 10:03:51.583  INFO [$_NIOREACTOR-1-RW] (io.mycat.backend.mysql.nio.handler.GetConnectionHandler.connectionAcquired(GetConnectionHandler.java:67)) - connected successfuly MySQLConnection@1084823961 [id=9, lastTime=1608602631583, user=root, schema=mycat_table_sharding, old shema=mycat_table_sharding, borrowed=true, fromSlaveDB=false, threadId=30, charset=utf8, txIsolation=3, autocommit=true, attachment=null, respHandler=null, host=localhost, port=3306, statusSync=null, writeQueue=0, modifiedSQLExecuted=false]
+2020-12-22 10:03:51.584  INFO [$_NIOREACTOR-3-RW] (io.mycat.backend.mysql.nio.handler.GetConnectionHandler.connectionAcquired(GetConnectionHandler.java:67)) - connected successfuly MySQLConnection@300609831 [id=7, lastTime=1608602631583, user=root, schema=mycat_table_sharding, old shema=mycat_table_sharding, borrowed=true, fromSlaveDB=false, threadId=31, charset=utf8, txIsolation=3, autocommit=true, attachment=null, respHandler=null, host=localhost, port=3306, statusSync=null, writeQueue=0, modifiedSQLExecuted=false]
+2020-12-22 10:03:51.587  INFO [$_NIOREACTOR-2-RW] (io.mycat.backend.datasource.PhysicalDatasource$1$1.connectionAcquired(PhysicalDatasource.java:514)) - connection id is 10
+2020-12-22 10:03:51.587  INFO [$_NIOREACTOR-2-RW] (io.mycat.backend.mysql.nio.handler.GetConnectionHandler.connectionAcquired(GetConnectionHandler.java:67)) - connected successfuly MySQLConnection@1382004655 [id=10, lastTime=1608602631587, user=root, schema=mycat_table_sharding, old shema=mycat_table_sharding, borrowed=true, fromSlaveDB=false, threadId=32, charset=utf8, txIsolation=3, autocommit=true, attachment=null, respHandler=null, host=localhost, port=3306, statusSync=null, writeQueue=0, modifiedSQLExecuted=false]
+2020-12-22 10:03:51.639  INFO [main] (io.mycat.backend.datasource.PhysicalDBPool.initSource(PhysicalDBPool.java:419)) - init result :finished 10 success 10 target count:10
+2020-12-22 10:03:51.639  INFO [main] (io.mycat.backend.datasource.PhysicalDBPool.init(PhysicalDBPool.java:365)) - localhost2 index:0 init success
+2020-12-22 10:03:51.639  INFO [main] (io.mycat.MycatServer.saveDataHostIndex(MycatServer.java:757)) - save DataHost index  localhost2 cur index 0
+2020-12-22 10:03:51.667  INFO [main] (io.mycat.backend.datasource.PhysicalDBPool.initSource(PhysicalDBPool.java:394)) - init backend mysql source ,create connections total 10 for hostM1 index :0
+2020-12-22 10:03:51.668  INFO [main] (io.mycat.backend.datasource.PhysicalDatasource.getConnection(PhysicalDatasource.java:564)) - no ilde connection in pool 928294079 ,create new connection for hostM1 of schema mycat_no_sharding totalConnectionCount: 0 increamentCount: 1
+2020-12-22 10:03:51.668  INFO [main] (io.mycat.backend.datasource.PhysicalDatasource.getConnection(PhysicalDatasource.java:564)) - no ilde connection in pool 928294079 ,create new connection for hostM1 of schema mycat_no_sharding totalConnectionCount: 0 increamentCount: 2
+2020-12-22 10:03:51.668  INFO [main] (io.mycat.backend.datasource.PhysicalDatasource.getConnection(PhysicalDatasource.java:564)) - no ilde connection in pool 928294079 ,create new connection for hostM1 of schema mycat_no_sharding totalConnectionCount: 0 increamentCount: 3
+2020-12-22 10:03:51.668  INFO [main] (io.mycat.backend.datasource.PhysicalDatasource.getConnection(PhysicalDatasource.java:564)) - no ilde connection in pool 928294079 ,create new connection for hostM1 of schema mycat_no_sharding totalConnectionCount: 0 increamentCount: 4
+2020-12-22 10:03:51.668  INFO [main] (io.mycat.backend.datasource.PhysicalDatasource.getConnection(PhysicalDatasource.java:564)) - no ilde connection in pool 928294079 ,create new connection for hostM1 of schema mycat_no_sharding totalConnectionCount: 0 increamentCount: 5
+2020-12-22 10:03:51.668  INFO [main] (io.mycat.backend.datasource.PhysicalDatasource.getConnection(PhysicalDatasource.java:564)) - no ilde connection in pool 928294079 ,create new connection for hostM1 of schema mycat_no_sharding totalConnectionCount: 0 increamentCount: 6
+2020-12-22 10:03:51.668  INFO [main] (io.mycat.backend.datasource.PhysicalDatasource.getConnection(PhysicalDatasource.java:564)) - no ilde connection in pool 928294079 ,create new connection for hostM1 of schema mycat_no_sharding totalConnectionCount: 0 increamentCount: 7
+2020-12-22 10:03:51.668  INFO [main] (io.mycat.backend.datasource.PhysicalDatasource.getConnection(PhysicalDatasource.java:564)) - no ilde connection in pool 928294079 ,create new connection for hostM1 of schema mycat_no_sharding totalConnectionCount: 0 increamentCount: 8
+2020-12-22 10:03:51.668  INFO [main] (io.mycat.backend.datasource.PhysicalDatasource.getConnection(PhysicalDatasource.java:564)) - no ilde connection in pool 928294079 ,create new connection for hostM1 of schema mycat_no_sharding totalConnectionCount: 0 increamentCount: 9
+2020-12-22 10:03:51.669  INFO [main] (io.mycat.backend.datasource.PhysicalDatasource.getConnection(PhysicalDatasource.java:564)) - no ilde connection in pool 928294079 ,create new connection for hostM1 of schema mycat_no_sharding totalConnectionCount: 0 increamentCount: 10
+2020-12-22 10:03:51.677  INFO [$_NIOREACTOR-2-RW] (io.mycat.backend.datasource.PhysicalDatasource$1$1.connectionAcquired(PhysicalDatasource.java:514)) - connection id is 14
+2020-12-22 10:03:51.677  INFO [$_NIOREACTOR-2-RW] (io.mycat.backend.mysql.nio.handler.GetConnectionHandler.connectionAcquired(GetConnectionHandler.java:67)) - connected successfuly MySQLConnection@1166809028 [id=14, lastTime=1608602631677, user=root, schema=mycat_no_sharding, old shema=mycat_no_sharding, borrowed=true, fromSlaveDB=false, threadId=33, charset=utf8, txIsolation=3, autocommit=true, attachment=null, respHandler=null, host=localhost, port=3306, statusSync=null, writeQueue=0, modifiedSQLExecuted=false]
+2020-12-22 10:03:51.685  INFO [$_NIOREACTOR-3-RW] (io.mycat.backend.datasource.PhysicalDatasource$1$1.connectionAcquired(PhysicalDatasource.java:514)) - connection id is 15
+2020-12-22 10:03:51.685  INFO [$_NIOREACTOR-3-RW] (io.mycat.backend.mysql.nio.handler.GetConnectionHandler.connectionAcquired(GetConnectionHandler.java:67)) - connected successfuly MySQLConnection@547936849 [id=15, lastTime=1608602631685, user=root, schema=mycat_no_sharding, old shema=mycat_no_sharding, borrowed=true, fromSlaveDB=false, threadId=34, charset=utf8, txIsolation=3, autocommit=true, attachment=null, respHandler=null, host=localhost, port=3306, statusSync=null, writeQueue=0, modifiedSQLExecuted=false]
+2020-12-22 10:03:51.706  INFO [$_NIOREACTOR-0-RW] (io.mycat.backend.datasource.PhysicalDatasource$1$1.connectionAcquired(PhysicalDatasource.java:514)) - connection id is 16
+2020-12-22 10:03:51.706  INFO [$_NIOREACTOR-0-RW] (io.mycat.backend.mysql.nio.handler.GetConnectionHandler.connectionAcquired(GetConnectionHandler.java:67)) - connected successfuly MySQLConnection@2050162178 [id=16, lastTime=1608602631706, user=root, schema=mycat_no_sharding, old shema=mycat_no_sharding, borrowed=true, fromSlaveDB=false, threadId=35, charset=utf8, txIsolation=3, autocommit=true, attachment=null, respHandler=null, host=localhost, port=3306, statusSync=null, writeQueue=0, modifiedSQLExecuted=false]
+2020-12-22 10:03:51.712  INFO [$_NIOREACTOR-3-RW] (io.mycat.backend.datasource.PhysicalDatasource$1$1.connectionAcquired(PhysicalDatasource.java:514)) - connection id is 11
+2020-12-22 10:03:51.712  INFO [$_NIOREACTOR-3-RW] (io.mycat.backend.mysql.nio.handler.GetConnectionHandler.connectionAcquired(GetConnectionHandler.java:67)) - connected successfuly MySQLConnection@630897176 [id=11, lastTime=1608602631712, user=root, schema=mycat_no_sharding, old shema=mycat_no_sharding, borrowed=true, fromSlaveDB=false, threadId=36, charset=utf8, txIsolation=3, autocommit=true, attachment=null, respHandler=null, host=localhost, port=3306, statusSync=null, writeQueue=0, modifiedSQLExecuted=false]
+2020-12-22 10:03:51.717  INFO [$_NIOREACTOR-1-RW] (io.mycat.backend.datasource.PhysicalDatasource$1$1.connectionAcquired(PhysicalDatasource.java:514)) - connection id is 13
+2020-12-22 10:03:51.717  INFO [$_NIOREACTOR-1-RW] (io.mycat.backend.mysql.nio.handler.GetConnectionHandler.connectionAcquired(GetConnectionHandler.java:67)) - connected successfuly MySQLConnection@923329867 [id=13, lastTime=1608602631717, user=root, schema=mycat_no_sharding, old shema=mycat_no_sharding, borrowed=true, fromSlaveDB=false, threadId=37, charset=utf8, txIsolation=3, autocommit=true, attachment=null, respHandler=null, host=localhost, port=3306, statusSync=null, writeQueue=0, modifiedSQLExecuted=false]
+2020-12-22 10:03:51.721  INFO [$_NIOREACTOR-0-RW] (io.mycat.backend.datasource.PhysicalDatasource$1$1.connectionAcquired(PhysicalDatasource.java:514)) - connection id is 12
+2020-12-22 10:03:51.722  INFO [$_NIOREACTOR-0-RW] (io.mycat.backend.mysql.nio.handler.GetConnectionHandler.connectionAcquired(GetConnectionHandler.java:67)) - connected successfuly MySQLConnection@827196521 [id=12, lastTime=1608602631721, user=root, schema=mycat_no_sharding, old shema=mycat_no_sharding, borrowed=true, fromSlaveDB=false, threadId=38, charset=utf8, txIsolation=3, autocommit=true, attachment=null, respHandler=null, host=localhost, port=3306, statusSync=null, writeQueue=0, modifiedSQLExecuted=false]
+2020-12-22 10:03:51.728  INFO [$_NIOREACTOR-2-RW] (io.mycat.backend.datasource.PhysicalDatasource$1$1.connectionAcquired(PhysicalDatasource.java:514)) - connection id is 18
+2020-12-22 10:03:51.728  INFO [$_NIOREACTOR-2-RW] (io.mycat.backend.mysql.nio.handler.GetConnectionHandler.connectionAcquired(GetConnectionHandler.java:67)) - connected successfuly MySQLConnection@561658964 [id=18, lastTime=1608602631728, user=root, schema=mycat_no_sharding, old shema=mycat_no_sharding, borrowed=true, fromSlaveDB=false, threadId=39, charset=utf8, txIsolation=3, autocommit=true, attachment=null, respHandler=null, host=localhost, port=3306, statusSync=null, writeQueue=0, modifiedSQLExecuted=false]
+2020-12-22 10:03:51.733  INFO [$_NIOREACTOR-1-RW] (io.mycat.backend.datasource.PhysicalDatasource$1$1.connectionAcquired(PhysicalDatasource.java:514)) - connection id is 17
+2020-12-22 10:03:51.734  INFO [$_NIOREACTOR-1-RW] (io.mycat.backend.mysql.nio.handler.GetConnectionHandler.connectionAcquired(GetConnectionHandler.java:67)) - connected successfuly MySQLConnection@1063606242 [id=17, lastTime=1608602631734, user=root, schema=mycat_no_sharding, old shema=mycat_no_sharding, borrowed=true, fromSlaveDB=false, threadId=40, charset=utf8, txIsolation=3, autocommit=true, attachment=null, respHandler=null, host=localhost, port=3306, statusSync=null, writeQueue=0, modifiedSQLExecuted=false]
+2020-12-22 10:03:51.739  INFO [$_NIOREACTOR-0-RW] (io.mycat.backend.datasource.PhysicalDatasource$1$1.connectionAcquired(PhysicalDatasource.java:514)) - connection id is 20
+2020-12-22 10:03:51.739  INFO [$_NIOREACTOR-0-RW] (io.mycat.backend.mysql.nio.handler.GetConnectionHandler.connectionAcquired(GetConnectionHandler.java:67)) - connected successfuly MySQLConnection@2079528841 [id=20, lastTime=1608602631739, user=root, schema=mycat_no_sharding, old shema=mycat_no_sharding, borrowed=true, fromSlaveDB=false, threadId=41, charset=utf8, txIsolation=3, autocommit=true, attachment=null, respHandler=null, host=localhost, port=3306, statusSync=null, writeQueue=0, modifiedSQLExecuted=false]
+2020-12-22 10:03:51.744  INFO [$_NIOREACTOR-3-RW] (io.mycat.backend.datasource.PhysicalDatasource$1$1.connectionAcquired(PhysicalDatasource.java:514)) - connection id is 19
+2020-12-22 10:03:51.744  INFO [$_NIOREACTOR-3-RW] (io.mycat.backend.mysql.nio.handler.GetConnectionHandler.connectionAcquired(GetConnectionHandler.java:67)) - connected successfuly MySQLConnection@521259340 [id=19, lastTime=1608602631744, user=root, schema=mycat_no_sharding, old shema=mycat_no_sharding, borrowed=true, fromSlaveDB=false, threadId=42, charset=utf8, txIsolation=3, autocommit=true, attachment=null, respHandler=null, host=localhost, port=3306, statusSync=null, writeQueue=0, modifiedSQLExecuted=false]
+2020-12-22 10:03:51.770  INFO [main] (io.mycat.backend.datasource.PhysicalDBPool.initSource(PhysicalDBPool.java:419)) - init result :finished 10 success 10 target count:10
+2020-12-22 10:03:51.770  INFO [main] (io.mycat.backend.datasource.PhysicalDBPool.init(PhysicalDBPool.java:365)) - localhost1 index:0 init success
+2020-12-22 10:03:51.774  INFO [main] (io.mycat.MycatServer.startup(MycatServer.java:515)) - ===============================================
+2020-12-22 10:03:51.774  INFO [main] (io.mycat.MycatServer.startup(MycatServer.java:516)) - Perform XA recovery log ...
+2020-12-22 10:03:51.775  INFO [main] (io.mycat.MycatServer.startup(MycatServer.java:520)) - Perform XA recovery log end...
+2020-12-22 10:04:01.990  INFO [$_NIOREACTOR-1-RW] (io.mycat.net.handler.FrontendAuthenticator.success(FrontendAuthenticator.java:226)) - [thread=$_NIOREACTOR-1-RW,class=ManagerConnection,id=1,host=0:0:0:0:0:0:0:1,port=9066,schema=null]'root' login success
+2020-12-22 10:04:29.016  INFO [BusinessExecutor4] (io.mycat.cache.CacheService.clearCache(CacheService.java:187)) - clear all cache pool 
+2020-12-22 10:04:29.016  INFO [BusinessExecutor4] (io.mycat.cache.impl.EnchachePool.clearCache(EnchachePool.java:86)) - clear cache ER_SQL2PARENTID
+2020-12-22 10:04:29.019  INFO [BusinessExecutor4] (io.mycat.cache.impl.EnchachePool.clearCache(EnchachePool.java:86)) - clear cache SQLRouteCache
+2020-12-22 10:04:29.020  INFO [BusinessExecutor4] (io.mycat.cache.DefaultLayedCachePool.clearCache(DefaultLayedCachePool.java:100)) - clear cache 
+2020-12-22 10:04:29.020  INFO [BusinessExecutor4] (io.mycat.cache.impl.EnchachePool.clearCache(EnchachePool.java:86)) - clear cache TableID2DataNodeCache.TESTDB_ORDERS
+2020-12-22 10:04:29.023  WARN [BusinessExecutor6] (io.mycat.manager.response.ReloadConfig$ReloadCallBack.onSuccess(ReloadConfig.java:263)) - send ok package to client [thread=BusinessExecutor6,class=ManagerConnection,id=1,host=0:0:0:0:0:0:0:1,port=9066,schema=null]
+2020-12-22 10:05:33.587  INFO [$_NIOREACTOR-2-RW] (io.mycat.net.handler.FrontendAuthenticator.success(FrontendAuthenticator.java:226)) - ServerConnection [id=2, schema=null, host=0:0:0:0:0:0:0:1, user=root,txIsolation=3, autocommit=true, schema=null, executeSql=null]'root' login success
+2020-12-22 10:05:34.458  INFO [$_NIOREACTOR-2-RW] (io.mycat.net.AbstractConnection.close(AbstractConnection.java:520)) - close connection,reason:quit cmd ,ServerConnection [id=2, schema=mycat_table_sharding_db, host=0:0:0:0:0:0:0:1, user=root,txIsolation=3, autocommit=true, schema=mycat_table_sharding_db, executeSql=select version()]
+2020-12-22 10:05:35.184  INFO [$_NIOREACTOR-3-RW] (io.mycat.net.handler.FrontendAuthenticator.success(FrontendAuthenticator.java:226)) - ServerConnection [id=3, schema=null, host=0:0:0:0:0:0:0:1, user=root,txIsolation=3, autocommit=true, schema=null, executeSql=null]'root' login success
+2020-12-22 10:05:38.819  WARN [$_NIOREACTOR-3-RW] (io.mycat.server.ServerConnection.routeEndExecuteSQL(ServerConnection.java:307)) - ServerConnection [id=3, schema=mycat_table_sharding_db, host=0:0:0:0:0:0:0:1, user=root,txIsolation=3, autocommit=true, schema=mycat_table_sharding_db, executeSql=show full tables from `mycat_table_sharding_db` where table_type = 'BASE TABLE']show full tables from mycat_table_sharding_db where table_type = 'BASE TABLE' err:java.sql.SQLSyntaxErrorException: not found table : BASE TABLE in schema mycat_table_sharding_db
+java.sql.SQLSyntaxErrorException: not found table : BASE TABLE in schema mycat_table_sharding_db
+	at io.mycat.route.impl.DruidMycatRouteStrategy.analyseShowSQL(DruidMycatRouteStrategy.java:558) ~[Mycat-server-1.6.7.4-release.jar:?]
+	at io.mycat.route.impl.DruidMycatRouteStrategy.routeSystemInfo(DruidMycatRouteStrategy.java:712) ~[Mycat-server-1.6.7.4-release.jar:?]
+	at io.mycat.route.impl.AbstractRouteStrategy.route(AbstractRouteStrategy.java:81) ~[Mycat-server-1.6.7.4-release.jar:?]
+	at io.mycat.route.RouteService.route(RouteService.java:139) ~[Mycat-server-1.6.7.4-release.jar:?]
+	at io.mycat.server.ServerConnection.routeEndExecuteSQL(ServerConnection.java:302) ~[Mycat-server-1.6.7.4-release.jar:?]
+	at io.mycat.server.ServerConnection.execute(ServerConnection.java:241) ~[Mycat-server-1.6.7.4-release.jar:?]
+	at io.mycat.server.response.ShowFullTables.response(ShowFullTables.java:58) ~[Mycat-server-1.6.7.4-release.jar:?]
+	at io.mycat.server.handler.ShowHandler.handle(ShowHandler.java:51) ~[Mycat-server-1.6.7.4-release.jar:?]
+	at io.mycat.server.ServerQueryHandler.query(ServerQueryHandler.java:92) ~[Mycat-server-1.6.7.4-release.jar:?]
+	at io.mycat.net.FrontendConnection.query(FrontendConnection.java:376) ~[Mycat-server-1.6.7.4-release.jar:?]
+	at io.mycat.net.FrontendConnection.query(FrontendConnection.java:396) ~[Mycat-server-1.6.7.4-release.jar:?]
+	at io.mycat.net.handler.FrontendCommandHandler.handle(FrontendCommandHandler.java:76) ~[Mycat-server-1.6.7.4-release.jar:?]
+	at io.mycat.net.FrontendConnection.rawHandle(FrontendConnection.java:570) ~[Mycat-server-1.6.7.4-release.jar:?]
+	at io.mycat.net.FrontendConnection.handle(FrontendConnection.java:552) ~[Mycat-server-1.6.7.4-release.jar:?]
+	at io.mycat.net.AbstractConnection.onReadData(AbstractConnection.java:327) ~[Mycat-server-1.6.7.4-release.jar:?]
+	at io.mycat.net.NIOSocketWR.asynRead(NIOSocketWR.java:216) ~[Mycat-server-1.6.7.4-release.jar:?]
+	at io.mycat.net.AbstractConnection.asynRead(AbstractConnection.java:279) ~[Mycat-server-1.6.7.4-release.jar:?]
+	at io.mycat.net.NIOReactor$RW.run(NIOReactor.java:113) ~[Mycat-server-1.6.7.4-release.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_131]
+2020-12-22 10:05:38.821 ERROR [$_NIOREACTOR-3-RW] (io.mycat.net.FrontendConnection.writeErrMessage(FrontendConnection.java:210)) - ServerConnection [id=3, schema=mycat_table_sharding_db, host=0:0:0:0:0:0:0:1, user=root,txIsolation=3, autocommit=true, schema=mycat_table_sharding_db, executeSql=show full tables from `mycat_table_sharding_db` where table_type = 'BASE TABLE']not found table : BASE TABLE in schema mycat_table_sharding_dbjava.lang.Thread .getStackTrace1559
+io.mycat.net.FrontendConnection .getStack224
+io.mycat.net.FrontendConnection .writeErrMessage210
+io.mycat.server.ServerConnection .routeEndExecuteSQL309
+io.mycat.server.ServerConnection .execute241
+io.mycat.server.response.ShowFullTables .response58
+io.mycat.server.handler.ShowHandler .handle51
+io.mycat.server.ServerQueryHandler .query92
+io.mycat.net.FrontendConnection .query376
+io.mycat.net.FrontendConnection .query396
+io.mycat.net.handler.FrontendCommandHandler .handle76
+io.mycat.net.FrontendConnection .rawHandle570
+io.mycat.net.FrontendConnection .handle552
+io.mycat.net.AbstractConnection .onReadData327
+io.mycat.net.NIOSocketWR .asynRead216
+io.mycat.net.AbstractConnection .asynRead279
+io.mycat.net.NIOReactor$RW .run113
+java.lang.Thread .run748
+ write errorMsg:{} error
+2020-12-22 10:08:42.619  INFO [$_NIOREACTOR-3-RW] (io.mycat.net.AbstractConnection.close(AbstractConnection.java:520)) - close connection,reason:quit cmd ,ServerConnection [id=3, schema=mycat_table_sharding_db, host=0:0:0:0:0:0:0:1, user=root,txIsolation=3, autocommit=true, schema=mycat_table_sharding_db, executeSql=show full tables from `mycat_table_sharding_db` where table_type = 'BASE TABLE']
+2020-12-22 10:08:49.052  INFO [$_NIOREACTOR-0-RW] (io.mycat.net.handler.FrontendAuthenticator.success(FrontendAuthenticator.java:226)) - ServerConnection [id=4, schema=null, host=0:0:0:0:0:0:0:1, user=root,txIsolation=3, autocommit=true, schema=null, executeSql=null]'root' login success
+2020-12-22 10:08:50.096  INFO [$_NIOREACTOR-0-RW] (io.mycat.net.AbstractConnection.close(AbstractConnection.java:520)) - close connection,reason:quit cmd ,ServerConnection [id=4, schema=mycat_table_sharding_db, host=0:0:0:0:0:0:0:1, user=root,txIsolation=3, autocommit=true, schema=mycat_table_sharding_db, executeSql=select version()]
+2020-12-22 10:08:50.859  INFO [$_NIOREACTOR-1-RW] (io.mycat.net.handler.FrontendAuthenticator.success(FrontendAuthenticator.java:226)) - ServerConnection [id=5, schema=null, host=0:0:0:0:0:0:0:1, user=root,txIsolation=3, autocommit=true, schema=null, executeSql=null]'root' login success
+2020-12-22 10:08:53.278  WARN [$_NIOREACTOR-1-RW] (io.mycat.server.ServerConnection.routeEndExecuteSQL(ServerConnection.java:307)) - ServerConnection [id=5, schema=mycat_table_sharding_db, host=0:0:0:0:0:0:0:1, user=root,txIsolation=3, autocommit=true, schema=mycat_table_sharding_db, executeSql=show full tables from `mycat_table_sharding_db` where table_type = 'BASE TABLE']show full tables from mycat_table_sharding_db where table_type = 'BASE TABLE' err:java.sql.SQLSyntaxErrorException: not found table : BASE TABLE in schema mycat_table_sharding_db
+java.sql.SQLSyntaxErrorException: not found table : BASE TABLE in schema mycat_table_sharding_db
+	at io.mycat.route.impl.DruidMycatRouteStrategy.analyseShowSQL(DruidMycatRouteStrategy.java:558) ~[Mycat-server-1.6.7.4-release.jar:?]
+	at io.mycat.route.impl.DruidMycatRouteStrategy.routeSystemInfo(DruidMycatRouteStrategy.java:712) ~[Mycat-server-1.6.7.4-release.jar:?]
+	at io.mycat.route.impl.AbstractRouteStrategy.route(AbstractRouteStrategy.java:81) ~[Mycat-server-1.6.7.4-release.jar:?]
+	at io.mycat.route.RouteService.route(RouteService.java:139) ~[Mycat-server-1.6.7.4-release.jar:?]
+	at io.mycat.server.ServerConnection.routeEndExecuteSQL(ServerConnection.java:302) ~[Mycat-server-1.6.7.4-release.jar:?]
+	at io.mycat.server.ServerConnection.execute(ServerConnection.java:241) ~[Mycat-server-1.6.7.4-release.jar:?]
+	at io.mycat.server.response.ShowFullTables.response(ShowFullTables.java:58) ~[Mycat-server-1.6.7.4-release.jar:?]
+	at io.mycat.server.handler.ShowHandler.handle(ShowHandler.java:51) ~[Mycat-server-1.6.7.4-release.jar:?]
+	at io.mycat.server.ServerQueryHandler.query(ServerQueryHandler.java:92) ~[Mycat-server-1.6.7.4-release.jar:?]
+	at io.mycat.net.FrontendConnection.query(FrontendConnection.java:376) ~[Mycat-server-1.6.7.4-release.jar:?]
+	at io.mycat.net.FrontendConnection.query(FrontendConnection.java:396) ~[Mycat-server-1.6.7.4-release.jar:?]
+	at io.mycat.net.handler.FrontendCommandHandler.handle(FrontendCommandHandler.java:76) ~[Mycat-server-1.6.7.4-release.jar:?]
+	at io.mycat.net.FrontendConnection.rawHandle(FrontendConnection.java:570) ~[Mycat-server-1.6.7.4-release.jar:?]
+	at io.mycat.net.FrontendConnection.handle(FrontendConnection.java:552) ~[Mycat-server-1.6.7.4-release.jar:?]
+	at io.mycat.net.AbstractConnection.onReadData(AbstractConnection.java:327) ~[Mycat-server-1.6.7.4-release.jar:?]
+	at io.mycat.net.NIOSocketWR.asynRead(NIOSocketWR.java:216) ~[Mycat-server-1.6.7.4-release.jar:?]
+	at io.mycat.net.AbstractConnection.asynRead(AbstractConnection.java:279) ~[Mycat-server-1.6.7.4-release.jar:?]
+	at io.mycat.net.NIOReactor$RW.run(NIOReactor.java:113) ~[Mycat-server-1.6.7.4-release.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_131]
+2020-12-22 10:08:53.278 ERROR [$_NIOREACTOR-1-RW] (io.mycat.net.FrontendConnection.writeErrMessage(FrontendConnection.java:210)) - ServerConnection [id=5, schema=mycat_table_sharding_db, host=0:0:0:0:0:0:0:1, user=root,txIsolation=3, autocommit=true, schema=mycat_table_sharding_db, executeSql=show full tables from `mycat_table_sharding_db` where table_type = 'BASE TABLE']not found table : BASE TABLE in schema mycat_table_sharding_dbjava.lang.Thread .getStackTrace1559
+io.mycat.net.FrontendConnection .getStack224
+io.mycat.net.FrontendConnection .writeErrMessage210
+io.mycat.server.ServerConnection .routeEndExecuteSQL309
+io.mycat.server.ServerConnection .execute241
+io.mycat.server.response.ShowFullTables .response58
+io.mycat.server.handler.ShowHandler .handle51
+io.mycat.server.ServerQueryHandler .query92
+io.mycat.net.FrontendConnection .query376
+io.mycat.net.FrontendConnection .query396
+io.mycat.net.handler.FrontendCommandHandler .handle76
+io.mycat.net.FrontendConnection .rawHandle570
+io.mycat.net.FrontendConnection .handle552
+io.mycat.net.AbstractConnection .onReadData327
+io.mycat.net.NIOSocketWR .asynRead216
+io.mycat.net.AbstractConnection .asynRead279
+io.mycat.net.NIOReactor$RW .run113
+java.lang.Thread .run748
+ write errorMsg:{} error
+2020-12-22 10:10:00.141 ERROR [$_NIOREACTOR-2-RW] (io.mycat.net.handler.FrontendAuthenticator.failure(FrontendAuthenticator.java:240)) - ServerConnection [id=6, schema=null, host=127.0.0.1, user=null,txIsolation=3, autocommit=true, schema=null, executeSql=null]Access denied for user 'root', because password is error 
+2020-12-22 10:10:04.581 ERROR [$_NIOREACTOR-3-RW] (io.mycat.net.handler.FrontendAuthenticator.failure(FrontendAuthenticator.java:240)) - ServerConnection [id=7, schema=null, host=127.0.0.1, user=null,txIsolation=3, autocommit=true, schema=null, executeSql=null]Access denied for user 'root', because password is error 
+2020-12-22 10:10:24.828 ERROR [$_NIOREACTOR-0-RW] (io.mycat.net.handler.FrontendAuthenticator.failure(FrontendAuthenticator.java:240)) - ServerConnection [id=8, schema=null, host=127.0.0.1, user=null,txIsolation=3, autocommit=true, schema=null, executeSql=null]Access denied for user 'root', because password is error 
+2020-12-22 10:10:31.795 ERROR [$_NIOREACTOR-1-RW] (io.mycat.net.handler.FrontendAuthenticator.failure(FrontendAuthenticator.java:240)) - ServerConnection [id=9, schema=null, host=127.0.0.1, user=null,txIsolation=3, autocommit=true, schema=null, executeSql=null]Access denied for user 'root', because password is error 
+2020-12-22 10:10:41.222  INFO [$_NIOREACTOR-1-RW] (io.mycat.net.AbstractConnection.close(AbstractConnection.java:520)) - close connection,reason:quit cmd ,ServerConnection [id=5, schema=mycat_table_sharding_db, host=0:0:0:0:0:0:0:1, user=root,txIsolation=3, autocommit=true, schema=mycat_table_sharding_db, executeSql=show full tables from `mycat_table_sharding_db` where table_type = 'BASE TABLE']
+2020-12-22 10:11:09.973  INFO [$_NIOREACTOR-2-RW] (io.mycat.net.handler.FrontendAuthenticator.success(FrontendAuthenticator.java:226)) - ServerConnection [id=10, schema=null, host=0:0:0:0:0:0:0:1, user=root,txIsolation=3, autocommit=true, schema=null, executeSql=null]'root' login success
+2020-12-22 10:11:17.921  INFO [$_NIOREACTOR-2-RW] (io.mycat.net.AbstractConnection.close(AbstractConnection.java:520)) - close connection,reason:quit cmd ,ServerConnection [id=10, schema=mycat_table_sharding_db, host=0:0:0:0:0:0:0:1, user=root,txIsolation=3, autocommit=true, schema=mycat_table_sharding_db, executeSql=select version()]
+2020-12-22 10:12:41.373  INFO [BusinessExecutor0] (io.mycat.cache.CacheService.clearCache(CacheService.java:187)) - clear all cache pool 
+2020-12-22 10:12:41.373  INFO [BusinessExecutor0] (io.mycat.cache.impl.EnchachePool.clearCache(EnchachePool.java:86)) - clear cache ER_SQL2PARENTID
+2020-12-22 10:12:41.374  INFO [BusinessExecutor0] (io.mycat.cache.impl.EnchachePool.clearCache(EnchachePool.java:86)) - clear cache SQLRouteCache
+2020-12-22 10:12:41.374  INFO [BusinessExecutor0] (io.mycat.cache.DefaultLayedCachePool.clearCache(DefaultLayedCachePool.java:100)) - clear cache 
+2020-12-22 10:12:41.374  INFO [BusinessExecutor0] (io.mycat.cache.impl.EnchachePool.clearCache(EnchachePool.java:86)) - clear cache TableID2DataNodeCache.TESTDB_ORDERS
+2020-12-22 10:12:41.374  WARN [BusinessExecutor2] (io.mycat.manager.response.ReloadConfig$ReloadCallBack.onSuccess(ReloadConfig.java:263)) - send ok package to client [thread=BusinessExecutor2,class=ManagerConnection,id=1,host=0:0:0:0:0:0:0:1,port=9066,schema=null]
+2020-12-22 10:13:13.246 ERROR [$_NIOREACTOR-1-RW] (io.mycat.net.FrontendConnection.writeErrMessage(FrontendConnection.java:210)) - [thread=$_NIOREACTOR-1-RW,class=ManagerConnection,id=1,host=0:0:0:0:0:0:0:1,port=9066,schema=null]Unsupported statementjava.lang.Thread .getStackTrace1559
+io.mycat.net.FrontendConnection .getStack224
+io.mycat.net.FrontendConnection .writeErrMessage210
+io.mycat.manager.handler.SelectHandler .handle54
+io.mycat.manager.ManagerQueryHandler .query63
+io.mycat.net.FrontendConnection .query376
+io.mycat.net.FrontendConnection .query396
+io.mycat.net.handler.FrontendCommandHandler .handle76
+io.mycat.manager.ManagerConnection .handle55
+io.mycat.net.AbstractConnection .onReadData327
+io.mycat.net.NIOSocketWR .asynRead216
+io.mycat.net.AbstractConnection .asynRead279
+io.mycat.net.NIOReactor$RW .run113
+java.lang.Thread .run748
+ write errorMsg:{} error
+2020-12-22 10:13:17.433 ERROR [$_NIOREACTOR-1-RW] (io.mycat.net.FrontendConnection.writeErrMessage(FrontendConnection.java:210)) - [thread=$_NIOREACTOR-1-RW,class=ManagerConnection,id=1,host=0:0:0:0:0:0:0:1,port=9066,schema=mycat_table_sharding_db]Unsupported statementjava.lang.Thread .getStackTrace1559
+io.mycat.net.FrontendConnection .getStack224
+io.mycat.net.FrontendConnection .writeErrMessage210
+io.mycat.manager.handler.ShowHandler .handle255
+io.mycat.manager.ManagerQueryHandler .query69
+io.mycat.net.FrontendConnection .query376
+io.mycat.net.FrontendConnection .query396
+io.mycat.net.handler.FrontendCommandHandler .handle76
+io.mycat.manager.ManagerConnection .handle55
+io.mycat.net.AbstractConnection .onReadData327
+io.mycat.net.NIOSocketWR .asynRead216
+io.mycat.net.AbstractConnection .asynRead279
+io.mycat.net.NIOReactor$RW .run113
+java.lang.Thread .run748
+ write errorMsg:{} error
+2020-12-22 10:14:33.399  INFO [$_NIOREACTOR-3-RW] (io.mycat.net.handler.FrontendAuthenticator.success(FrontendAuthenticator.java:226)) - ServerConnection [id=11, schema=null, host=0:0:0:0:0:0:0:1, user=root,txIsolation=3, autocommit=true, schema=null, executeSql=null]'root' login success
+2020-12-22 10:43:17.771  INFO [Timer0] (io.mycat.net.AbstractConnection.idleCheck(AbstractConnection.java:537)) - [thread=Timer0,class=ManagerConnection,id=1,host=0:0:0:0:0:0:0:1,port=9066,schema=mycat_table_sharding_db] idle timeout
+2020-12-22 10:43:17.771  INFO [Timer0] (io.mycat.net.AbstractConnection.close(AbstractConnection.java:520)) - close connection,reason: idle  ,[thread=Timer0,class=ManagerConnection,id=1,host=0:0:0:0:0:0:0:1,port=9066,schema=mycat_table_sharding_db]
+2020-12-22 10:46:34.772  INFO [Timer1] (io.mycat.net.AbstractConnection.idleCheck(AbstractConnection.java:537)) - ServerConnection [id=11, schema=mycat_table_sharding_db, host=0:0:0:0:0:0:0:1, user=root,txIsolation=3, autocommit=true, schema=mycat_table_sharding_db, executeSql=null] idle timeout
+2020-12-22 10:46:34.773  INFO [Timer1] (io.mycat.net.AbstractConnection.close(AbstractConnection.java:520)) - close connection,reason: idle  ,ServerConnection [id=11, schema=mycat_table_sharding_db, host=0:0:0:0:0:0:0:1, user=root,txIsolation=3, autocommit=true, schema=mycat_table_sharding_db, executeSql=null]

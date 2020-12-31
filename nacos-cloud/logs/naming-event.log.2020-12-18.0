@@ -1,0 +1,80 @@
+2020-12-18 09:22:06,047 INFO DEFAULT_GROUP@@matrix-security {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.167:9098:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-12-18 09:22:06,047 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@matrix-security, ips: 192.168.50.167:9098_true,
+
+2020-12-18 09:26:26,093 INFO {POS} {IP-DISABLED} valid: 192.168.50.167:9098@DEFAULT@DEFAULT_GROUP@@matrix-security, region: unknown, msg: client timeout after 15000, last beat: 1608254766290
+
+2020-12-18 09:26:39,579 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@matrix-security, ips: 192.168.50.167:9098_false,
+
+2020-12-18 09:26:44,573 INFO service: DEFAULT_GROUP@@matrix-security {POS} {IP-ENABLED} valid: 192.168.50.167:9098@DEFAULT, region: unknown, msg: client beat ok
+
+2020-12-18 09:27:46,129 INFO {POS} {IP-DISABLED} valid: 192.168.50.167:9098@DEFAULT@DEFAULT_GROUP@@matrix-security, region: unknown, msg: client timeout after 15000, last beat: 1608254849610
+
+2020-12-18 09:28:01,233 INFO DEFAULT_GROUP@@matrix-security {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.167:9098:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-12-18 09:28:01,233 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@matrix-security, ips: 
+
+2020-12-18 09:28:05,505 INFO DEFAULT_GROUP@@matrix-security {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.167:9098:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-12-18 09:28:05,505 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@matrix-security, ips: 192.168.50.167:9098_true,
+
+2020-12-18 09:31:16,245 INFO {POS} {IP-DISABLED} valid: 192.168.50.167:9098@DEFAULT@DEFAULT_GROUP@@matrix-security, region: unknown, msg: client timeout after 15000, last beat: 1608255060642
+
+2020-12-18 09:31:29,305 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@matrix-security, ips: 192.168.50.167:9098_false,
+
+2020-12-18 09:31:34,294 INFO service: DEFAULT_GROUP@@matrix-security {POS} {IP-ENABLED} valid: 192.168.50.167:9098@DEFAULT, region: unknown, msg: client beat ok
+
+2020-12-18 09:38:01,544 INFO {POS} {IP-DISABLED} valid: 192.168.50.167:9098@DEFAULT@DEFAULT_GROUP@@matrix-security, region: unknown, msg: client timeout after 15000, last beat: 1608255464865
+
+2020-12-18 09:38:16,604 INFO DEFAULT_GROUP@@matrix-security {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.167:9098:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-12-18 09:38:16,604 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@matrix-security, ips: 
+
+2020-12-18 09:39:19,732 INFO DEFAULT_GROUP@@matrix-security {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.167:9098:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-12-18 09:39:19,732 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@matrix-security, ips: 192.168.50.167:9098_true,
+
+2020-12-18 09:40:36,701 INFO {POS} {IP-DISABLED} valid: 192.168.50.167:9098@DEFAULT@DEFAULT_GROUP@@matrix-security, region: unknown, msg: client timeout after 15000, last beat: 1608255619772
+
+2020-12-18 09:40:50,876 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@matrix-security, ips: 192.168.50.167:9098_false,
+
+2020-12-18 09:40:55,912 INFO service: DEFAULT_GROUP@@matrix-security {POS} {IP-ENABLED} valid: 192.168.50.167:9098@DEFAULT, region: unknown, msg: client beat ok
+
+2020-12-18 09:41:41,727 INFO {POS} {IP-DISABLED} valid: 192.168.50.167:9098@DEFAULT@DEFAULT_GROUP@@matrix-security, region: unknown, msg: client timeout after 15000, last beat: 1608255685932
+
+2020-12-18 09:41:56,813 INFO DEFAULT_GROUP@@matrix-security {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.167:9098:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-12-18 09:41:56,813 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@matrix-security, ips: 
+
+2020-12-18 09:42:11,611 INFO DEFAULT_GROUP@@matrix-security {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.167:9098:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-12-18 09:42:11,611 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@matrix-security, ips: 192.168.50.167:9098_true,
+
+2020-12-18 09:47:31,868 INFO {POS} {IP-DISABLED} valid: 192.168.50.167:9098@DEFAULT@DEFAULT_GROUP@@matrix-security, region: unknown, msg: client timeout after 15000, last beat: 1608256031887
+
+2020-12-18 09:47:41,920 INFO DEFAULT_GROUP@@matrix-security {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.167:9098:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-12-18 09:47:41,920 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@matrix-security, ips: 
+
+2020-12-18 09:47:44,735 INFO DEFAULT_GROUP@@matrix-security {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.167:9098:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-12-18 09:47:44,735 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@matrix-security, ips: 192.168.50.167:9098_true,
+
+2020-12-18 09:49:41,965 INFO {POS} {IP-DISABLED} valid: 192.168.50.167:9098@DEFAULT@DEFAULT_GROUP@@matrix-security, region: unknown, msg: client timeout after 15000, last beat: 1608256164860
+
+2020-12-18 09:49:54,593 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@matrix-security, ips: 192.168.50.167:9098_false,
+
+2020-12-18 09:49:59,623 INFO service: DEFAULT_GROUP@@matrix-security {POS} {IP-ENABLED} valid: 192.168.50.167:9098@DEFAULT, region: unknown, msg: client beat ok
+
+2020-12-18 09:56:57,280 INFO {POS} {IP-DISABLED} valid: 192.168.50.167:9098@DEFAULT@DEFAULT_GROUP@@matrix-security, region: unknown, msg: client timeout after 15000, last beat: 1608256601306
+
+2020-12-18 09:57:10,897 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@matrix-security, ips: 192.168.50.167:9098_false,
+
+2020-12-18 09:57:15,866 INFO service: DEFAULT_GROUP@@matrix-security {POS} {IP-ENABLED} valid: 192.168.50.167:9098@DEFAULT, region: unknown, msg: client beat ok
+
+2020-12-18 11:01:13,300 INFO {POS} {IP-DISABLED} valid: 192.168.50.167:9098@DEFAULT@DEFAULT_GROUP@@matrix-security, region: unknown, msg: client timeout after 15000, last beat: 1608260455292
+
+2020-12-18 11:01:29,352 INFO DEFAULT_GROUP@@matrix-security {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.167:9098:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-12-18 11:01:29,352 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@matrix-security, ips: 
+

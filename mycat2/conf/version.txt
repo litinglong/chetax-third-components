@@ -1,0 +1,6 @@
+BuildTime  2020-09-25 07:40:40
+GitVersion   66e83d8b01557d40e4e403c85c45086011f899e0
+MavenVersion 1.11-05
+GitUrl https://github.com/MyCATApache/Mycat2.git
+MyCatSite http://www.mycat.io/
+QQGroup 332702697

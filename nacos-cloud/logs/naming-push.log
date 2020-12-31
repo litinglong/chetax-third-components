@@ -1,0 +1,126 @@
+2020-12-21 10:52:56,285 INFO DEFAULT_GROUP@@matrix-security is changed, add it to push queue.
+
+2020-12-21 10:52:56,347 INFO serviceName: DEFAULT_GROUP@@matrix-security changed, schedule push for: 192.168.50.167:61633, agent: Nacos-Java-Client:v1.3.2, key: 192.168.50.167,61633,611406126486900
+
+2020-12-21 10:52:56,347 INFO send udp packet: 192.168.50.167,61633,611406126486900
+
+2020-12-21 10:52:56,563 INFO received ack: {"type": "push-ack", "lastRefTime":"611406126486900", "data":""} from: 192.168.50.167:61633, cost: 216 ms, unacked: 0, total push: 1
+
+2020-12-21 10:53:55,722 INFO DEFAULT_GROUP@@matrix-service1 is changed, add it to push queue.
+
+2020-12-21 10:53:55,722 INFO serviceName: DEFAULT_GROUP@@matrix-service1 changed, schedule push for: 192.168.50.167:61641, agent: Nacos-Java-Client:v1.3.2, key: 192.168.50.167,61641,611465555936500
+
+2020-12-21 10:53:55,722 INFO send udp packet: 192.168.50.167,61641,611465555936500
+
+2020-12-21 10:53:55,727 INFO received ack: {"type": "push-ack", "lastRefTime":"611465555936500", "data":""} from: 192.168.50.167:61641, cost: 5 ms, unacked: 0, total push: 2
+
+2020-12-21 10:54:47,572 INFO DEFAULT_GROUP@@matrix-gateway is changed, add it to push queue.
+
+2020-12-21 10:54:47,572 INFO serviceName: DEFAULT_GROUP@@matrix-gateway changed, schedule push for: 192.168.50.167:61642, agent: Nacos-Java-Client:v1.3.2, key: 192.168.50.167,61642,611517405721600
+
+2020-12-21 10:54:47,572 INFO send udp packet: 192.168.50.167,61642,611517405721600
+
+2020-12-21 10:54:47,572 INFO serviceName: DEFAULT_GROUP@@matrix-gateway changed, schedule push for: 192.168.50.167:61642, agent: Nacos-Java-Client:v1.3.2, key: 192.168.50.167,61642,611517405721600
+
+2020-12-21 10:54:47,572 INFO send udp packet: 192.168.50.167,61642,611517405721600
+
+2020-12-21 10:54:47,576 INFO received ack: {"type": "push-ack", "lastRefTime":"611517405721600", "data":""} from: 192.168.50.167:61642, cost: 4 ms, unacked: 0, total push: 3
+
+2020-12-21 10:54:47,642 ERROR [NACOS-PUSH] error while receiving ack data
+
+java.lang.IllegalStateException: unable to find ackEntry for key: 192.168.50.167,61642,611517405721600, ack json: {"type": "push-ack", "lastRefTime":"611517405721600", "data":""}
+	at com.alibaba.nacos.naming.push.PushService$Receiver.run(PushService.java:677)
+	at java.lang.Thread.run(Thread.java:748)
+2020-12-21 11:41:03,197 INFO DEFAULT_GROUP@@matrix-gateway is changed, add it to push queue.
+
+2020-12-21 11:41:18,713 INFO DEFAULT_GROUP@@matrix-gateway is changed, add it to push queue.
+
+2020-12-21 11:41:24,477 INFO DEFAULT_GROUP@@matrix-gateway is changed, add it to push queue.
+
+2020-12-21 11:41:24,477 INFO serviceName: DEFAULT_GROUP@@matrix-gateway changed, schedule push for: 192.168.50.167:53984, agent: Nacos-Java-Client:v1.3.2, key: 192.168.50.167,53984,614314310847700
+
+2020-12-21 11:41:24,477 INFO send udp packet: 192.168.50.167,53984,614314310847700
+
+2020-12-21 11:41:24,478 INFO serviceName: DEFAULT_GROUP@@matrix-gateway changed, schedule push for: 192.168.50.167:53984, agent: Nacos-Java-Client:v1.3.2, key: 192.168.50.167,53984,614314310847700
+
+2020-12-21 11:41:24,487 INFO send udp packet: 192.168.50.167,53984,614314310847700
+
+2020-12-21 11:41:24,554 INFO received ack: {"type": "push-ack", "lastRefTime":"614314310847700", "data":""} from: 192.168.50.167:53984, cost: 60 ms, unacked: 0, total push: 4
+
+2020-12-21 11:41:24,554 ERROR [NACOS-PUSH] error while receiving ack data
+
+java.lang.IllegalStateException: unable to find ackEntry for key: 192.168.50.167,53984,614314310847700, ack json: {"type": "push-ack", "lastRefTime":"614314310847700", "data":""}
+	at com.alibaba.nacos.naming.push.PushService$Receiver.run(PushService.java:677)
+	at java.lang.Thread.run(Thread.java:748)
+2020-12-21 11:55:13,791 INFO DEFAULT_GROUP@@matrix-gateway is changed, add it to push queue.
+
+2020-12-21 11:55:16,809 INFO DEFAULT_GROUP@@matrix-security is changed, add it to push queue.
+
+2020-12-21 11:55:28,773 INFO DEFAULT_GROUP@@matrix-gateway is changed, add it to push queue.
+
+2020-12-21 11:55:31,828 INFO DEFAULT_GROUP@@matrix-security is changed, add it to push queue.
+
+2020-12-21 11:56:50,428 INFO DEFAULT_GROUP@@matrix-security is changed, add it to push queue.
+
+2020-12-21 11:56:50,428 INFO serviceName: DEFAULT_GROUP@@matrix-security changed, schedule push for: 192.168.50.167:52761, agent: Nacos-Java-Client:v1.3.2, key: 192.168.50.167,52761,615240261626200
+
+2020-12-21 11:56:50,428 INFO send udp packet: 192.168.50.167,52761,615240261626200
+
+2020-12-21 11:56:50,432 INFO received ack: {"type": "push-ack", "lastRefTime":"615240261626200", "data":""} from: 192.168.50.167:52761, cost: 4 ms, unacked: 0, total push: 5
+
+2020-12-21 12:03:15,053 INFO DEFAULT_GROUP@@matrix-gateway is changed, add it to push queue.
+
+2020-12-21 12:03:15,053 INFO serviceName: DEFAULT_GROUP@@matrix-gateway changed, schedule push for: 192.168.50.167:62995, agent: Nacos-Java-Client:v1.3.2, key: 192.168.50.167,62995,615624887585500
+
+2020-12-21 12:03:15,054 INFO send udp packet: 192.168.50.167,62995,615624887585500
+
+2020-12-21 12:03:15,062 INFO received ack: {"type": "push-ack", "lastRefTime":"615624887585500", "data":""} from: 192.168.50.167:62995, cost: 8 ms, unacked: 0, total push: 6
+
+2020-12-21 12:03:15,067 INFO serviceName: DEFAULT_GROUP@@matrix-gateway changed, schedule push for: 192.168.50.167:62995, agent: Nacos-Java-Client:v1.3.2, key: 192.168.50.167,62995,615624887585500
+
+2020-12-21 12:03:15,068 INFO send udp packet: 192.168.50.167,62995,615624887585500
+
+2020-12-21 12:03:15,070 INFO received ack: {"type": "push-ack", "lastRefTime":"615624887585500", "data":""} from: 192.168.50.167:62995, cost: 2 ms, unacked: 0, total push: 7
+
+2020-12-21 12:04:55,059 INFO DEFAULT_GROUP@@matrix-gateway is changed, add it to push queue.
+
+2020-12-21 12:05:01,967 INFO DEFAULT_GROUP@@matrix-security is changed, add it to push queue.
+
+2020-12-21 12:05:10,192 INFO DEFAULT_GROUP@@matrix-gateway is changed, add it to push queue.
+
+2020-12-21 12:05:16,973 INFO DEFAULT_GROUP@@matrix-security is changed, add it to push queue.
+
+2020-12-21 12:05:54,365 INFO DEFAULT_GROUP@@matrix-security is changed, add it to push queue.
+
+2020-12-21 12:05:54,368 INFO serviceName: DEFAULT_GROUP@@matrix-security changed, schedule push for: 192.168.50.167:62927, agent: Nacos-Java-Client:v1.3.2, key: 192.168.50.167,62927,615784201985700
+
+2020-12-21 12:05:54,369 INFO send udp packet: 192.168.50.167,62927,615784201985700
+
+2020-12-21 12:05:54,377 INFO received ack: {"type": "push-ack", "lastRefTime":"615784201985700", "data":""} from: 192.168.50.167:62927, cost: 8 ms, unacked: 0, total push: 8
+
+2020-12-21 12:06:28,805 INFO DEFAULT_GROUP@@matrix-gateway is changed, add it to push queue.
+
+2020-12-21 12:06:28,805 INFO serviceName: DEFAULT_GROUP@@matrix-gateway changed, schedule push for: 192.168.50.167:54809, agent: Nacos-Java-Client:v1.3.2, key: 192.168.50.167,54809,615818638455800
+
+2020-12-21 12:06:28,805 INFO send udp packet: 192.168.50.167,54809,615818638455800
+
+2020-12-21 12:06:28,813 INFO received ack: {"type": "push-ack", "lastRefTime":"615818638455800", "data":""} from: 192.168.50.167:54809, cost: 8 ms, unacked: 0, total push: 9
+
+2020-12-21 12:06:28,817 INFO serviceName: DEFAULT_GROUP@@matrix-gateway changed, schedule push for: 192.168.50.167:54809, agent: Nacos-Java-Client:v1.3.2, key: 192.168.50.167,54809,615818638455800
+
+2020-12-21 12:06:28,817 INFO send udp packet: 192.168.50.167,54809,615818638455800
+
+2020-12-21 12:06:28,820 INFO received ack: {"type": "push-ack", "lastRefTime":"615818638455800", "data":""} from: 192.168.50.167:54809, cost: 3 ms, unacked: 0, total push: 10
+
+2020-12-21 14:12:11,559 INFO DEFAULT_GROUP@@matrix-gateway is changed, add it to push queue.
+
+2020-12-21 14:12:26,567 INFO DEFAULT_GROUP@@matrix-gateway is changed, add it to push queue.
+
+2020-12-21 15:05:48,875 INFO DEFAULT_GROUP@@matrix-security is changed, add it to push queue.
+
+2020-12-21 15:05:53,876 INFO DEFAULT_GROUP@@matrix-service1 is changed, add it to push queue.
+
+2020-12-21 15:06:03,945 INFO DEFAULT_GROUP@@matrix-security is changed, add it to push queue.
+
+2020-12-21 15:06:08,994 INFO DEFAULT_GROUP@@matrix-service1 is changed, add it to push queue.
+

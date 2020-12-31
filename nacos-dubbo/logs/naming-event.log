@@ -1,0 +1,50 @@
+2020-12-30 18:01:02,795 INFO DEFAULT_GROUP@@consumers:com.test3.service.Test3Service:1.0.0:test {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.167:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-12-30 18:01:02,803 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumers:com.test3.service.Test3Service:1.0.0:test, ips: 192.168.50.167:0_true,
+
+2020-12-30 18:01:03,390 INFO DEFAULT_GROUP@@providers:com.test4.service.Test4Service:1.0.0:test {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.167:20880:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-12-30 18:01:03,390 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@providers:com.test4.service.Test4Service:1.0.0:test, ips: 192.168.50.167:20880_true,
+
+2020-12-30 18:02:17,088 INFO DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.167:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-12-30 18:02:17,088 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test, ips: 192.168.50.167:0_true,
+
+2020-12-30 18:04:17,101 INFO {POS} {IP-DISABLED} valid: 192.168.50.167:0@DEFAULT@DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test, region: unknown, msg: client timeout after 15000, last beat: 1609322641942
+
+2020-12-30 18:04:32,518 INFO DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.167:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-12-30 18:04:32,518 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test, ips: 
+
+2020-12-30 18:04:52,848 INFO DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.167:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-12-30 18:04:52,848 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test, ips: 192.168.50.167:0_true,
+
+2020-12-30 18:04:59,925 INFO DEFAULT_GROUP@@matrix-test-bridge-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.167:64150:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-12-30 18:04:59,925 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@matrix-test-bridge-service, ips: 192.168.50.167:64150_true,
+
+2020-12-30 18:12:22,911 INFO {POS} {IP-DISABLED} valid: 192.168.50.167:0@DEFAULT@DEFAULT_GROUP@@consumers:com.test3.service.Test3Service:1.0.0:test, region: unknown, msg: client timeout after 15000, last beat: 1609323124180
+
+2020-12-30 18:12:23,528 INFO {POS} {IP-DISABLED} valid: 192.168.50.167:20880@DEFAULT@DEFAULT_GROUP@@providers:com.test4.service.Test4Service:1.0.0:test, region: unknown, msg: client timeout after 15000, last beat: 1609323124187
+
+2020-12-30 18:12:37,920 INFO DEFAULT_GROUP@@consumers:com.test3.service.Test3Service:1.0.0:test {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.167:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-12-30 18:12:37,920 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumers:com.test3.service.Test3Service:1.0.0:test, ips: 
+
+2020-12-30 18:12:38,533 INFO DEFAULT_GROUP@@providers:com.test4.service.Test4Service:1.0.0:test {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.167:20880:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-12-30 18:12:38,533 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@providers:com.test4.service.Test4Service:1.0.0:test, ips: 
+
+2020-12-30 18:13:00,005 INFO {POS} {IP-DISABLED} valid: 192.168.50.167:64150@DEFAULT@DEFAULT_GROUP@@matrix-test-bridge-service, region: unknown, msg: client timeout after 15000, last beat: 1609323160366
+
+2020-12-30 18:13:02,678 INFO {POS} {IP-DISABLED} valid: 192.168.50.167:0@DEFAULT@DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test, region: unknown, msg: client timeout after 15000, last beat: 1609323163100
+
+2020-12-30 18:13:15,015 INFO DEFAULT_GROUP@@matrix-test-bridge-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.167:64150:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-12-30 18:13:15,015 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@matrix-test-bridge-service, ips: 
+
+2020-12-30 18:13:17,684 INFO DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.167:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-12-30 18:13:17,684 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test, ips: 
+

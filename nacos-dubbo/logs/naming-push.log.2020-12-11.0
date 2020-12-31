@@ -1,0 +1,42 @@
+2020-12-11 16:21:06,551 INFO DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test is changed, add it to push queue.
+
+2020-12-11 16:23:54,488 INFO DEFAULT_GROUP@@consumers:com.test3.service.Test3Service:1.0.0:test is changed, add it to push queue.
+
+2020-12-11 16:23:56,727 INFO DEFAULT_GROUP@@providers:com.test4.service.Test4Service:1.0.0:test is changed, add it to push queue.
+
+2020-12-11 16:23:56,741 INFO serviceName: DEFAULT_GROUP@@providers:com.test4.service.Test4Service:1.0.0:test changed, schedule push for: 192.168.50.167:65321, agent: Nacos-Java-Client:v1.3.2, key: 192.168.50.167,65321,273047020880899
+
+2020-12-11 16:23:56,751 INFO send udp packet: 192.168.50.167,65321,273047020880899
+
+2020-12-11 16:23:56,753 INFO serviceName: DEFAULT_GROUP@@providers:com.test4.service.Test4Service:1.0.0:test changed, schedule push for: 192.168.50.167:52208, agent: Nacos-Java-Client:v1.4.0, key: 192.168.50.167,52208,273047020880899
+
+2020-12-11 16:23:56,753 INFO send udp packet: 192.168.50.167,52208,273047020880899
+
+2020-12-11 16:23:56,755 INFO received ack: {"type": "push-ack", "lastRefTime":"273047020880899", "data":""} from: 192.168.50.167:65321, cost: 4 ms, unacked: 1, total push: 2
+
+2020-12-11 16:23:56,758 INFO received ack: {"type": "push-ack", "lastRefTime":"273047020880899", "data":""} from: 192.168.50.167:52208, cost: 5 ms, unacked: 0, total push: 2
+
+2020-12-11 17:11:37,546 INFO DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test is changed, add it to push queue.
+
+2020-12-11 17:11:41,228 INFO DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test is changed, add it to push queue.
+
+2020-12-11 17:11:46,094 INFO DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test is changed, add it to push queue.
+
+2020-12-11 17:56:28,059 INFO DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test is changed, add it to push queue.
+
+2020-12-11 17:56:37,310 INFO DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test is changed, add it to push queue.
+
+2020-12-11 17:56:40,095 INFO DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test is changed, add it to push queue.
+
+2020-12-11 17:58:11,369 INFO DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test is changed, add it to push queue.
+
+2020-12-11 17:58:15,883 INFO DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test is changed, add it to push queue.
+
+2020-12-11 17:58:20,578 INFO DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test is changed, add it to push queue.
+
+2020-12-11 18:00:37,034 INFO DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test is changed, add it to push queue.
+
+2020-12-11 18:00:38,432 INFO DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test is changed, add it to push queue.
+
+2020-12-11 18:00:41,826 INFO DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test is changed, add it to push queue.
+

@@ -1,0 +1,48 @@
+2020-12-11 16:21:05,544 INFO DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.167:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-12-11 16:21:05,550 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test, ips: 192.168.50.167:0_true,
+
+2020-12-11 16:23:53,485 INFO DEFAULT_GROUP@@consumers:com.test3.service.Test3Service:1.0.0:test {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.167:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-12-11 16:23:53,485 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumers:com.test3.service.Test3Service:1.0.0:test, ips: 192.168.50.167:0_true,
+
+2020-12-11 16:23:55,726 INFO DEFAULT_GROUP@@providers:com.test4.service.Test4Service:1.0.0:test {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.167:20880:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-12-11 16:23:55,726 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@providers:com.test4.service.Test4Service:1.0.0:test, ips: 192.168.50.167:20880_true,
+
+2020-12-11 17:11:36,543 INFO {POS} {IP-DISABLED} valid: 192.168.50.167:0@DEFAULT@DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test, region: unknown, msg: client timeout after 15000, last beat: 1607677879211
+
+2020-12-11 17:11:40,226 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test, ips: 192.168.50.167:0_false,
+
+2020-12-11 17:11:45,093 INFO service: DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test {POS} {IP-ENABLED} valid: 192.168.50.167:0@DEFAULT, region: unknown, msg: client beat ok
+
+2020-12-11 17:56:27,043 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test, ips: 192.168.50.167:0_true,
+
+2020-12-11 17:56:36,309 INFO DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.167:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-12-11 17:56:36,309 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test, ips: 
+
+2020-12-11 17:56:39,092 INFO DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.167:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-12-11 17:56:39,093 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test, ips: 192.168.50.167:0_true,
+
+2020-12-11 17:58:10,367 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test, ips: 192.168.50.167:0_true,
+
+2020-12-11 17:58:14,882 INFO DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.167:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-12-11 17:58:14,882 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test, ips: 
+
+2020-12-11 17:58:19,577 INFO DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.167:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-12-11 17:58:19,577 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test, ips: 192.168.50.167:0_true,
+
+2020-12-11 18:00:36,008 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test, ips: 192.168.50.167:0_true,
+
+2020-12-11 18:00:37,430 INFO DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.167:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-12-11 18:00:37,430 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test, ips: 
+
+2020-12-11 18:00:40,826 INFO DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.167:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-12-11 18:00:40,826 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumers:com.test4.service.Test4Service:1.0.0:test, ips: 192.168.50.167:0_true,
+

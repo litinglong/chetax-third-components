@@ -1,0 +1,2 @@
+ERROR  | wrapper  | 2020/12/21 15:07:04 | The mycat service is not installed - 指定的服务未安装。 (0x424)
+STATUS | wrapper  | 2020/12/21 15:07:23 | The mycat2 Service is not installed.
